@@ -13,11 +13,7 @@ namespace Train
 
         public Lottery()
         {
-            Random random = new Random();
-            for (int i = 0; i < 6; i++)
-            {
-                lottery_numbers[i] = random.Next(1, 38);
-            }
+           
         }
 
         public int[] GetLotteryNumbers()
@@ -27,8 +23,16 @@ namespace Train
 
         public void Draw()
         {
+            Random random = new Random();
+            for (int i = 0; i < 6; i++)
+            {
+                lottery_numbers[i] = random.Next(1, 2);
+
+            }
             LotteryEventArgs args = new LotteryEventArgs(lottery_numbers);
             LotteryDrawn?.Invoke(this, args);
+            Console.WriteLine("the winning numbers are: " + string.Join(", ", lottery_numbers));
+
         }
 
     }

@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 
 namespace Train
 {
-    public class Gambeler : AbstractGambler
+    public class CatGambler : AbstractGambler
     {
-
-        public Gambeler(string _name)
+        public CatGambler(string _name)
         {
             name = _name;
         }
-
         public override void selebration()
         {
-            Console.WriteLine("OMG Arela i love you");
+            Console.WriteLine("meyao");
         }
     }
 }

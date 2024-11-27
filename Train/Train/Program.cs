@@ -11,7 +11,9 @@ namespace Train
         public static void Main(string[] args)
         {
             Lottery lottery = new Lottery();
-            Gambeler gambeler = new Gambeler();
+            CatGambler catGambler = new CatGambler("rivi");
+            Gambeler gambeler = new Gambeler("joe");
+            catGambler.BuyTicket(lottery);
             gambeler.BuyTicket(lottery);
             lottery.Draw();
         }
