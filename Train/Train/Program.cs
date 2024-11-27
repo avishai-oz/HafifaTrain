@@ -8,14 +8,16 @@ namespace Train
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
             Lottery lottery = new Lottery();
             CatGambler catGambler = new CatGambler("rivi");
             Gambeler gambeler = new Gambeler("joe");
+
             catGambler.BuyTicket(lottery);
             gambeler.BuyTicket(lottery);
-            lottery.Draw();
+            lottery.Draw(lottery.GambelType);
         }
     }
 }

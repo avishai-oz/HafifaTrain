@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\lottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\ilotery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\ilotery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +23,10 @@
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\gambeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILotery.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\ILotery.cs",
+              "RelativeDocumentMoniker": "Train\\ILotery.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\ILotery.cs",
+              "RelativeToolTip": "Train\\ILotery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:35:19.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lottery.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
+              "RelativeDocumentMoniker": "Train\\Lottery.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
+              "RelativeToolTip": "Train\\Lottery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:46:04.734Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -64,20 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lottery.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
-              "RelativeDocumentMoniker": "Train\\Lottery.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
-              "RelativeToolTip": "Train\\Lottery.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T22:46:04.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LotteryEventArgs.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\LotteryEventArgs.cs",
               "RelativeDocumentMoniker": "Train\\LotteryEventArgs.cs",
@@ -96,41 +113,20 @@
               "RelativeDocumentMoniker": "Train\\Program.cs",
               "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Program.cs",
               "RelativeToolTip": "Train\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T14:31:18.117Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "aea02d15-34f7-4113-b20f-86f38355a24c",
-        "Display": 0,
-        "X": 1,
-        "Y": 1,
-        "Width": 1279,
-        "Height": 671,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AbstractGambler.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\AbstractGambler.cs",
               "RelativeDocumentMoniker": "Train\\AbstractGambler.cs",
               "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\AbstractGambler.cs",
               "RelativeToolTip": "Train\\AbstractGambler.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T07:58:20.102Z",
               "EditorCaption": ""
