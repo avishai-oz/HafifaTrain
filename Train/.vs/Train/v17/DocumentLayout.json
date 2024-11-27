@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\ilottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\ilottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\lottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\lottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\ilottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\ilottery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\abstractgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\gambeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\gambeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\gambeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\gambeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\lotteryeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\catgambler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ILottery.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\ILottery.cs",
               "RelativeDocumentMoniker": "Train\\ILottery.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Lottery.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
               "RelativeDocumentMoniker": "Train\\Lottery.cs",
               "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Lottery.cs",
               "RelativeToolTip": "Train\\Lottery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T22:46:04.734Z",
               "EditorCaption": ""
@@ -76,12 +76,11 @@
               "RelativeToolTip": "Train\\CatGambler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:02:14.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T08:02:14.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Gambeler.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Gambeler.cs",
               "RelativeDocumentMoniker": "Train\\Gambeler.cs",
@@ -100,14 +99,14 @@
               "RelativeDocumentMoniker": "Train\\Program.cs",
               "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Program.cs",
               "RelativeToolTip": "Train\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T14:31:18.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LotteryEventArgs.cs",
               "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\LotteryEventArgs.cs",
               "RelativeDocumentMoniker": "Train\\LotteryEventArgs.cs",
@@ -126,7 +125,7 @@
               "RelativeDocumentMoniker": "Train\\AbstractGambler.cs",
               "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\AbstractGambler.cs",
               "RelativeToolTip": "Train\\AbstractGambler.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAmwCwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T07:58:20.102Z",
               "EditorCaption": ""

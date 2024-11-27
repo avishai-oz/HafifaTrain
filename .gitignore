@@ -411,3 +411,10 @@ Docs
 Contact
 Manage cookies
 Do not share my personal information
+*.db-shm
+*.db-wal
+*.vsidx
+*.vsidx
+*.vsidx
+*.vsidx
+*.vsidx
