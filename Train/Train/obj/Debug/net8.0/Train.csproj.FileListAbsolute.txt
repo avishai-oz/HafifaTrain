@@ -1,0 +1,15 @@
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.AssemblyInfoInputs.cache
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.AssemblyInfo.cs
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.csproj.CoreCompileInputs.cache
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.sourcelink.json
+C:\Users\avish\Dev\HafifaTrain\Train\Train\bin\Debug\net8.0\Train.exe
+C:\Users\avish\Dev\HafifaTrain\Train\Train\bin\Debug\net8.0\Train.deps.json
+C:\Users\avish\Dev\HafifaTrain\Train\Train\bin\Debug\net8.0\Train.runtimeconfig.json
+C:\Users\avish\Dev\HafifaTrain\Train\Train\bin\Debug\net8.0\Train.dll
+C:\Users\avish\Dev\HafifaTrain\Train\Train\bin\Debug\net8.0\Train.pdb
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.dll
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\refint\Train.dll
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.pdb
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\Train.genruntimeconfig.cache
+C:\Users\avish\Dev\HafifaTrain\Train\Train\obj\Debug\net8.0\ref\Train.dll
