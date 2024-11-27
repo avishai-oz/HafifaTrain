@@ -6,15 +6,10 @@ using System.Threading.Tasks;
 
 namespace Train
 {
-    public class Lottery : ILotery
+    public class Lottery : ILottery
     {
         int[] lottery_numbers = new int[6];
-        public event EventHandler<LotteryEventArgs> LotteryDrawn;
-
-        public Lottery()
-        {
-           
-        }
+        public event Action<LotteryEventArgs> LotteryDrawn;
 
         public int[] GambelType()
         {
@@ -28,8 +23,8 @@ namespace Train
         public void Draw(Func<int[]> gambelType)
         {
             lottery_numbers = gambelType();
-            LotteryEventArgs args = new LotteryEventArgs(lottery_numbers);
-            LotteryDrawn?.Invoke(this, args);
+            LotteryEventArgs args = new LotteryEventArgs(lottery_numbers,new Lottery() );
+            LotteryDrawn?.Invoke(args);
             Console.WriteLine("the winning numbers are: " + string.Join(", ", lottery_numbers));
 
         }

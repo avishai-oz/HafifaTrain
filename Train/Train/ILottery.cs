@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Train
 {
-    public interface ILotery
+    public interface ILottery
     {
         public void Draw(Func<int[]> gambelType);
-
-        public int[] GambelType();
+        public event Action<LotteryEventArgs> LotteryDrawn;
     }
 }

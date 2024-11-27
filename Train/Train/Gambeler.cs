@@ -15,7 +15,7 @@ namespace Train
             name = _name;
         }
 
-        public override void selebration()
+        public override void celebration()
         {
             Console.WriteLine("OMG Arela i love you");
         }

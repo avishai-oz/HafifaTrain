@@ -11,13 +11,14 @@ namespace Train
         public int[] ticket = new int[6];
         public string name { get; set; }
 
-        public abstract void selebration();
+        public abstract void celebration();
 
-        public virtual void HandelLotteryDrawn(object sender, LotteryEventArgs e)
+        public virtual void HandelLotteryDrawn(LotteryEventArgs e)
         {
             int[] lottery_numbers = e.LotteryNumbers;
             int correct = 0;
             bool win = true;
+            int id = e.getid();
             for (int i = 0; i < 6; i++)
             {
                 if (lottery_numbers.Contains(ticket[i]))
@@ -27,7 +28,7 @@ namespace Train
                 else
                 {
                     Console.WriteLine($"{name} not win the lottery!");
-                    ticketexpaierd((Lottery)sender);
+                    ticketexpaierd(e.lotteries[id]);
                     win = false;
                     break;
                 }
@@ -35,13 +36,13 @@ namespace Train
             if (win)
             {
                 Console.WriteLine($"{name} won the lottery!");
-                selebration();
-                ticketexpaierd((Lottery)sender);
+                celebration();
+                ticketexpaierd(e.lotteries[id]);
             }
-            
+
         }
 
-        public virtual void BuyTicket(Lottery lottery)
+        public virtual void BuyTicket(ILottery lottery)
         {
             Random random = new Random();
             for (int i = 0; i < 6; i++)
@@ -52,7 +53,7 @@ namespace Train
             lottery.LotteryDrawn += HandelLotteryDrawn;
         }
 
-        public virtual void ticketexpaierd(Lottery lottery)
+        public virtual void ticketexpaierd(ILottery lottery)
         {
             lottery.LotteryDrawn -= HandelLotteryDrawn;
         }
