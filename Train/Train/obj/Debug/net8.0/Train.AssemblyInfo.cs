@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Train")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+810c75113affc34fdd18e9471ed9f812167584f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98f57c49506637a1801a17fe2e82cafc9d037b40")]
 [assembly: System.Reflection.AssemblyProductAttribute("Train")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Train")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
