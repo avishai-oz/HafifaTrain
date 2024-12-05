@@ -13,12 +13,20 @@ namespace Train
         public Gender Gender { get; set; }
         public int Wallet { get; set; }
 
-        public User(string name, int id, Gender gender, int wallet)
+        public ITicket ticket { get; set; }
+
+        public User(string name, int id, Gender gender, int wallet , ITicket ticket)
         {
             this.name = name;
             this.id = id;
             Gender = gender;
             Wallet = wallet;
+            this.ticket = ticket;
         }
+        public User()
+        {
+        }
+
+
     }
 }

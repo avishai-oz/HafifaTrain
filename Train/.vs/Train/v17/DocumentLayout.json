@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\interfaces\\idbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\interfaces\\idbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\controlers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\controlers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\services\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\utils\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\utils\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\DBManager.cs",
-              "RelativeDocumentMoniker": "Train\\DBManager.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\DBManager.cs",
-              "RelativeToolTip": "Train\\DBManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Title": "Interaction.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
+              "RelativeDocumentMoniker": "Train\\Interaction.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
+              "RelativeToolTip": "Train\\Interaction.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAcwOAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:41:27.401Z",
+              "WhenOpened": "2024-12-04T14:02:16.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IDBManager.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interfaces\\IDBManager.cs",
-              "RelativeDocumentMoniker": "Train\\Interfaces\\IDBManager.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interfaces\\IDBManager.cs",
-              "RelativeToolTip": "Train\\Interfaces\\IDBManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Title": "UserControler.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
+              "RelativeDocumentMoniker": "Train\\Controlers\\UserControler.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
+              "RelativeToolTip": "Train\\Controlers\\UserControler.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:35:39.138Z",
+              "WhenOpened": "2024-12-04T14:02:06.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WalletService.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Services\\WalletService.cs",
-              "RelativeDocumentMoniker": "Train\\Services\\WalletService.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Services\\WalletService.cs",
-              "RelativeToolTip": "Train\\Services\\WalletService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Utils\\DBManager.cs",
+              "RelativeDocumentMoniker": "Train\\Utils\\DBManager.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Utils\\DBManager.cs",
+              "RelativeToolTip": "Train\\Utils\\DBManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:30:35.53Z",
+              "WhenOpened": "2024-12-04T14:01:54.819Z",
               "EditorCaption": ""
             }
           ]

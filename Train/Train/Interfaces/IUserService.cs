@@ -8,7 +8,7 @@ namespace Train
 {
     public interface IUserService
     {
-        public void RegisterUser(IUser user);
-        public void SignInUser(IUser user);
+        public void RegisterUser(IUser user ,IDBManager db);
+        public bool SignInUser(string name, int id, IDBManager db);
     }
 }

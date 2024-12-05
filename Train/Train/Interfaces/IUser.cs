@@ -12,5 +12,6 @@ namespace Train
         public int id { get; set; }
         public Gender Gender { get; set; }
         public int Wallet { get; set; }
+        public ITicket ticket { get; set; }
     }
 }
