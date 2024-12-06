@@ -17,5 +17,7 @@ namespace Train
         public T GetByAtt<T>(string propertyName, object propertyValue);
         public void UpdateAtt<T>(T obj, string attToComper, string propertyName, object propertyValue);
         public void Delete<T>(T obj);
+
+        public void Clear();
     }
 }

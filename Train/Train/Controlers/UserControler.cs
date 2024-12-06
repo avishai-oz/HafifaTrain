@@ -24,11 +24,10 @@ namespace Train
 
             if (choice == 1)
             {
-                while(!Interaction.Registry(user, authService, userDB))
+                bool userRegistry = true;
+                while(userRegistry)
                 {
-                    user.name = Interaction.GetNameFromUser();
-                    user.id = Interaction.GetIdFromUser();
-                    authService.RegisterUser(user, userDB);
+                    userRegistry = !Interaction.Registry(user, authService, userDB);
                 }
             }
             else if (choice == 2)

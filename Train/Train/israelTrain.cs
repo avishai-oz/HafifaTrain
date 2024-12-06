@@ -11,7 +11,7 @@ namespace Train
         public static void Main()
         {
 
-            StationControler.Stationcontroler();
+            //StationControler.PopulateStationsFromAPI();
 
             UserControler.Usercontroler();
         }

@@ -89,5 +89,12 @@ namespace Train
             var updatedJson = DBHelper.SerializeJson(objects);
             File.WriteAllText(FileName, updatedJson);
         }
+
+        public void Clear()
+        {
+            // Writing an empty JSON array to clear the data in the file
+            File.WriteAllText(FileName, "[]");
+            //Console.WriteLine("All data has been cleared from the database.");
+        }
     }
 }

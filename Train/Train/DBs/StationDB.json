@@ -1,0 +1,282 @@
+[
+  {
+    "cityId": 293322,
+    "name": "Tiberias",
+    "location": {
+      "Latitude": 32.79221,
+      "Longitude": 35.53124
+    }
+  },
+  {
+    "cityId": 293286,
+    "name": "Umm el Faḥm",
+    "location": {
+      "Latitude": 32.51725,
+      "Longitude": 35.15349
+    }
+  },
+  {
+    "cityId": 293253,
+    "name": "Jaffa",
+    "location": {
+      "Latitude": 32.05043,
+      "Longitude": 34.75224
+    }
+  },
+  {
+    "cityId": 293397,
+    "name": "Tel Aviv",
+    "location": {
+      "Latitude": 32.08088,
+      "Longitude": 34.78057
+    }
+  },
+  {
+    "cityId": 282926,
+    "name": "Modi‘in Makkabbim Re‘ut",
+    "location": {
+      "Latitude": 31.89385,
+      "Longitude": 35.01504
+    }
+  },
+  {
+    "cityId": 281184,
+    "name": "Jerusalem",
+    "location": {
+      "Latitude": 31.76904,
+      "Longitude": 35.21633
+    }
+  },
+  {
+    "cityId": 293222,
+    "name": "Yavné",
+    "location": {
+      "Latitude": 31.87808,
+      "Longitude": 34.73983
+    }
+  },
+  {
+    "cityId": 293703,
+    "name": "Rishon LeẔiyyon",
+    "location": {
+      "Latitude": 31.97102,
+      "Longitude": 34.78939
+    }
+  },
+  {
+    "cityId": 293690,
+    "name": "Rosh Ha‘Ayin",
+    "location": {
+      "Latitude": 32.09556,
+      "Longitude": 34.95664
+    }
+  },
+  {
+    "cityId": 293768,
+    "name": "Ramla",
+    "location": {
+      "Latitude": 31.92923,
+      "Longitude": 34.86563
+    }
+  },
+  {
+    "cityId": 293725,
+    "name": "Reẖovot",
+    "location": {
+      "Latitude": 31.89421,
+      "Longitude": 34.81199
+    }
+  },
+  {
+    "cityId": 293783,
+    "name": "Ramat HaSharon",
+    "location": {
+      "Latitude": 32.14613,
+      "Longitude": 34.8394
+    }
+  },
+  {
+    "cityId": 293788,
+    "name": "Ramat Gan",
+    "location": {
+      "Latitude": 32.08227,
+      "Longitude": 34.81065
+    }
+  },
+  {
+    "cityId": 293831,
+    "name": "Qiryat Moẕqin",
+    "location": {
+      "Latitude": 32.83706,
+      "Longitude": 35.0776
+    }
+  },
+  {
+    "cityId": 293822,
+    "name": "Qiryat Yam",
+    "location": {
+      "Latitude": 32.84966,
+      "Longitude": 35.06973
+    }
+  },
+  {
+    "cityId": 293842,
+    "name": "Qiryat Gat",
+    "location": {
+      "Latitude": 31.60998,
+      "Longitude": 34.76422
+    }
+  },
+  {
+    "cityId": 293807,
+    "name": "Ra'anana",
+    "location": {
+      "Latitude": 32.1836,
+      "Longitude": 34.87386
+    }
+  },
+  {
+    "cityId": 293844,
+    "name": "Qiryat Bialik",
+    "location": {
+      "Latitude": 32.8275,
+      "Longitude": 35.08583
+    }
+  },
+  {
+    "cityId": 293918,
+    "name": "Petaẖ Tiqwa",
+    "location": {
+      "Latitude": 32.08707,
+      "Longitude": 34.88747
+    }
+  },
+  {
+    "cityId": 293845,
+    "name": "Qiryat Ata",
+    "location": {
+      "Latitude": 32.81149,
+      "Longitude": 35.11323
+    }
+  },
+  {
+    "cityId": 294071,
+    "name": "Netanya",
+    "location": {
+      "Latitude": 32.33291,
+      "Longitude": 34.85992
+    }
+  },
+  {
+    "cityId": 293962,
+    "name": "Or Yehuda",
+    "location": {
+      "Latitude": 32.02923,
+      "Longitude": 34.85788
+    }
+  },
+  {
+    "cityId": 294074,
+    "name": "Ness Ziona",
+    "location": {
+      "Latitude": 31.92933,
+      "Longitude": 34.79868
+    }
+  },
+  {
+    "cityId": 294098,
+    "name": "Nazareth",
+    "location": {
+      "Latitude": 32.69925,
+      "Longitude": 35.30483
+    }
+  },
+  {
+    "cityId": 294117,
+    "name": "Nahariyya",
+    "location": {
+      "Latitude": 33.00892,
+      "Longitude": 35.09814
+    }
+  },
+  {
+    "cityId": 294421,
+    "name": "Lod",
+    "location": {
+      "Latitude": 31.9467,
+      "Longitude": 34.8903
+    }
+  },
+  {
+    "cityId": 294577,
+    "name": "Karmi’el",
+    "location": {
+      "Latitude": 32.91708,
+      "Longitude": 35.30501
+    }
+  },
+  {
+    "cityId": 294514,
+    "name": "Kfar Saba",
+    "location": {
+      "Latitude": 32.175,
+      "Longitude": 34.90694
+    }
+  },
+  {
+    "cityId": 294801,
+    "name": "Haifa",
+    "location": {
+      "Latitude": 32.81841,
+      "Longitude": 34.9885
+    }
+  },
+  {
+    "cityId": 295130,
+    "name": "Eṭ Ṭaiyiba",
+    "location": {
+      "Latitude": 32.26616,
+      "Longitude": 35.00893
+    }
+  },
+  {
+    "cityId": 294946,
+    "name": "Hadera",
+    "location": {
+      "Latitude": 32.44192,
+      "Longitude": 34.9039
+    }
+  },
+  {
+    "cityId": 294751,
+    "name": "H̱olon",
+    "location": {
+      "Latitude": 32.01034,
+      "Longitude": 34.77918
+    }
+  },
+  {
+    "cityId": 294760,
+    "name": "Hod HaSharon",
+    "location": {
+      "Latitude": 32.15934,
+      "Longitude": 34.8932
+    }
+  },
+  {
+    "cityId": 294778,
+    "name": "Herzliya",
+    "location": {
+      "Latitude": 32.16627,
+      "Longitude": 34.82536
+    }
+  },
+  {
+    "cityId": 294999,
+    "name": "Givatayim",
+    "location": {
+      "Latitude": 32.07225,
+      "Longitude": 34.81253
+    }
+  }
+]

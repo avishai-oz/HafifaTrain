@@ -151,44 +151,33 @@ namespace Train
         {
             try
             {
+
                 Console.WriteLine("Please select the station you want to depart from:");
-                // Get stations from DB
+                string sours = Console.ReadLine();
+                Station sourceStation = StationService.GetStation(sours).Result;
+                Console.WriteLine("Please select the station you want to arrive at:");
+                string dest = Console.ReadLine();
+                Station destStation = StationService.GetStation(dest).Result;
 
-                List<Station> stations = stationDB.Get<Station>();
-                for (int i = 0; i < stations.Count; i++)
-                {
-                    Console.WriteLine($"{i + 1}. {stations[i].name}");
-                }
-                if (int.TryParse(Console.ReadLine(), out int sourceIndex) && sourceIndex > 0 && sourceIndex <= stations.Count)
-                {
-                    IStation sourceStation = stations[sourceIndex - 1];
-                    Console.WriteLine("Please select the station you want to arrive at:");
-                    for (int i = 0; i < stations.Count; i++)
-                    {
-                        Console.WriteLine($"{i + 1}. {stations[i].name}");
-                    }
-                    if (int.TryParse(Console.ReadLine(), out int destIndex) && destIndex > 0 && destIndex <= stations.Count)
-                    {
-                        IStation destStation = stations[destIndex - 1];
-                        Console.WriteLine($"You selected to travel from {sourceStation.name} to {destStation.name}.");
 
-                        Console.WriteLine("The ticket price is:");
-                        double distance = sourceStation.location.DistanceTo(destStation.location);
-                        int price = ticketService.CalculatePrice(distance);
-                        ITicket ticket = new Ticket(price,destStation, sourceStation);
-                        Console.WriteLine(price);
+                Console.WriteLine($"You selected to travel from {sourceStation.name} to {destStation.name}.");
+                Console.WriteLine("The ticket price is:");
+                double distance = sourceStation.location.DistanceTo(destStation.location);
+                int price = ticketService.CalculatePrice(distance);
+                ITicket ticket = new Ticket(price,destStation, sourceStation);
+                Console.WriteLine(price);
                         
-                        if (ticket.price > (userDB.GetByAtt<User>("name", user.name)).Wallet)
-                        {
-                            throw new Exception("you dont have enough money to buy the ticket");
-                        }
-                        ticketService.BuyTicket(user, sourceStation, destStation, stationService, userDB);
-                        
-                        userDB.UpdateAtt(user,"name", "Ticket", ticket);
-                        user = userDB.GetByAtt<IUser>("name", user.name);
-                        Console.WriteLine("Ticket successfully purchased!");
-                    }
+                if (ticket.price > (userDB.GetByAtt<User>("name", user.name)).Wallet)
+                {
+                    throw new Exception("you dont have enough money to buy the ticket");
                 }
+                ticketService.BuyTicket(user, sourceStation, destStation, stationService, userDB);
+                        
+                userDB.UpdateAtt(user,"name", "Ticket", ticket);
+                user = userDB.GetByAtt<IUser>("name", user.name);
+                Console.WriteLine("Ticket successfully purchased!");
+            
+            
             }
             catch (Exception ex)
             {

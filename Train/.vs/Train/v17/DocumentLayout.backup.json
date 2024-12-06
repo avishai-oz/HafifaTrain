@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\israeltrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\israeltrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\controlers\\stationcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\controlers\\stationcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\controlers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\controlers\\usercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\utils\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\utils\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\interfaces\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\interfaces\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|c:\\users\\avish\\dev\\hafifatrain\\train\\train\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96E3A34-E47E-4299-9BD8-8489089FE50B}|Train\\Train.csproj|solutionrelative:train\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +43,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Interaction.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
-              "RelativeDocumentMoniker": "Train\\Interaction.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
-              "RelativeToolTip": "Train\\Interaction.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAcwOAAAAAoAAAAAAAAAA==",
+              "Title": "israelTrain.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\israelTrain.cs",
+              "RelativeDocumentMoniker": "Train\\israelTrain.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\israelTrain.cs",
+              "RelativeToolTip": "Train\\israelTrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:02:16.72Z",
+              "WhenOpened": "2024-12-05T08:48:15.007Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControler.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
-              "RelativeDocumentMoniker": "Train\\Controlers\\UserControler.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
-              "RelativeToolTip": "Train\\Controlers\\UserControler.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwC4AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IStationService.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interfaces\\IStationService.cs",
+              "RelativeDocumentMoniker": "Train\\Interfaces\\IStationService.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interfaces\\IStationService.cs",
+              "RelativeToolTip": "Train\\Interfaces\\IStationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:02:06.935Z",
+              "WhenOpened": "2024-12-05T13:04:48.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StationService.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Services\\StationService.cs",
+              "RelativeDocumentMoniker": "Train\\Services\\StationService.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Services\\StationService.cs",
+              "RelativeToolTip": "Train\\Services\\StationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:03:36.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Utils\\DBManager.cs",
-              "RelativeDocumentMoniker": "Train\\Utils\\DBManager.cs",
-              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Utils\\DBManager.cs",
-              "RelativeToolTip": "Train\\Utils\\DBManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserControler.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
+              "RelativeDocumentMoniker": "Train\\Controlers\\UserControler.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\UserControler.cs",
+              "RelativeToolTip": "Train\\Controlers\\UserControler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T14:01:54.819Z",
+              "WhenOpened": "2024-12-05T12:57:33.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StationControler.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\StationControler.cs",
+              "RelativeDocumentMoniker": "Train\\Controlers\\StationControler.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Controlers\\StationControler.cs",
+              "RelativeToolTip": "Train\\Controlers\\StationControler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:03:03.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\API.cs",
+              "RelativeDocumentMoniker": "Train\\API.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\API.cs",
+              "RelativeToolTip": "Train\\API.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:53:07.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d255d119-207e-4599-b33a-d987cf0f2315",
+        "Display": 0,
+        "X": 1,
+        "Y": 1,
+        "Width": 1279,
+        "Height": 671,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Interaction.cs",
+              "DocumentMoniker": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
+              "RelativeDocumentMoniker": "Train\\Interaction.cs",
+              "ToolTip": "C:\\Users\\avish\\Dev\\HafifaTrain\\Train\\Train\\Interaction.cs",
+              "RelativeToolTip": "Train\\Interaction.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAADwv5wAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:17:26.632Z",
               "EditorCaption": ""
             }
           ]

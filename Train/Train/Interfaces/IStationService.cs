@@ -11,7 +11,5 @@ namespace Train
     {
         double CalculateDistanc(GeographicCoordinate sourc, GeographicCoordinate dest);
 
-        //Station GetStationById(int id);
-
     }
 }

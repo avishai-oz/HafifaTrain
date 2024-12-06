@@ -1,0 +1,176 @@
+[
+  {
+    "$type": "Train.User, Train",
+    "name": "Admin",
+    "id": 0,
+    "Gender": 0,
+    "Wallet": 0,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 0,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin",
+        "location": {
+          "Latitude": 1.0,
+          "Longitude": 1.0
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin2",
+        "location": {
+          "Latitude": 2.0,
+          "Longitude": 2.0
+        }
+      }
+    }
+  },
+  {
+    "$type": "Train.User, Train",
+    "name": "a",
+    "id": 1,
+    "Gender": 0,
+    "Wallet": 92,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 8,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 293822,
+        "name": "Qiryat Yam",
+        "location": {
+          "Latitude": 32.84966,
+          "Longitude": 35.06973
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 293397,
+        "name": "Tel Aviv",
+        "location": {
+          "Latitude": 32.08088,
+          "Longitude": 34.78057
+        }
+      }
+    }
+  },
+  {
+    "$type": "Train.User, Train",
+    "name": "elen",
+    "id": 1234,
+    "Gender": 2,
+    "Wallet": 100,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 0,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin",
+        "location": {
+          "Latitude": 1.0,
+          "Longitude": 1.0
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin2",
+        "location": {
+          "Latitude": 2.0,
+          "Longitude": 2.0
+        }
+      }
+    }
+  },
+  {
+    "$type": "Train.User, Train",
+    "name": "t",
+    "id": 4,
+    "Gender": 0,
+    "Wallet": 87,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 13,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 293100,
+        "name": "Safed",
+        "location": {
+          "Latitude": 32.96465,
+          "Longitude": 35.496
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 281184,
+        "name": "Jerusalem",
+        "location": {
+          "Latitude": 31.76904,
+          "Longitude": 35.21633
+        }
+      }
+    }
+  },
+  {
+    "$type": "Train.User, Train",
+    "name": "n",
+    "id": 3,
+    "Gender": 0,
+    "Wallet": 0,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 0,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin",
+        "location": {
+          "Latitude": 1.0,
+          "Longitude": 1.0
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 0,
+        "name": "admin2",
+        "location": {
+          "Latitude": 2.0,
+          "Longitude": 2.0
+        }
+      }
+    }
+  },
+  {
+    "$type": "Train.User, Train",
+    "name": "r",
+    "id": 2,
+    "Gender": 0,
+    "Wallet": 87,
+    "ticket": {
+      "$type": "Train.Ticket, Train",
+      "price": 13,
+      "DestinationStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 293100,
+        "name": "Safed",
+        "location": {
+          "Latitude": 32.96465,
+          "Longitude": 35.496
+        }
+      },
+      "SourceStation": {
+        "$type": "Train.Station, Train",
+        "cityId": 281184,
+        "name": "Jerusalem",
+        "location": {
+          "Latitude": 31.76904,
+          "Longitude": 35.21633
+        }
+      }
+    }
+  }
+]
